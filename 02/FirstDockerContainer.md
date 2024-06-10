@@ -49,6 +49,13 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS  
 61babdf7e978   nginx:1.20.1   "/docker-entrypoint.…"   5 minutes ago    Up 5 minutes    0.0.0.0:8080->80/tcp   thirsty_pike
 ```
 
+- CHeck the image nginx is exist on host or not
+- If not, automatically pull from Docker Hub
+- Create container name `webserver1` with image nginxx
+- Provide IP Adress for the container
+- Open port `8080` on host and NAT to port `80` of container
+- Run container with command defined in image 
+
 # docker container stop
 - because do not use the Ctrl + C
 ```bash
