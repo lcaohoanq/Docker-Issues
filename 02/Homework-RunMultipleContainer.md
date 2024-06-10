@@ -1,7 +1,5 @@
- Question:
- ``text
-Run 3 container `nginx`, `httpd` and `mysql`
- ```
+# Run 3 container `nginx`, `httpd` and `mysql`
+
 - detach and set name for each container
 - PORT: nginx (80:80), httpd (8080:80), mysql (3306:3306)
 - With `mysql`, using `--env` to configuration the environment variables:
