@@ -25,3 +25,19 @@ docker container exec -it
 - image is app, the command is `"/docker-entrypoint."`
 
 ![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/f183b048-9c69-485d-b1a5-392ca8f6c1f2)
+
+# exit the interactive terminal and container
+```bash
+exit
+```
+
+![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/038bf1f8-0d40-4af5-ac44-d5c0041ab8bf)
+
+- Exited immediately
+
+# exit the interactive terminal only
+```bash
+Ctrl + PQ
+```
+- using alpine -> `sh` not `bash`
+![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/00ebed6e-0442-4f46-b51b-fae00ce2f490)
