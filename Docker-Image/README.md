@@ -34,3 +34,24 @@ docker image history nginx
 ```
 
 ![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/a09e537a-0bce-4343-99b2-facd121c8b31)
+
+# Tag and Push Image to Docker Hub
+
+![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/cc080397-dc10-417e-9c88-d804bf2c64ab)
+
+- After we tag an image, we will have a copy version (with different tag/name) 
+
+- Login with Docker Hub by command line (with at)
+
+```zsh
+docker login -u lcaohoanq
+Password: ......... (my at)
+```
+
+![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/e273f475-5f9d-45a4-8c72-d70b8ec0c56a)
+
+![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/703497ba-d694-413e-b51e-851ac844ba05)
+
+![image](https://github.com/lcaohoanq/Docker-Issues/assets/136492579/db5efe2e-3fc0-4b15-9e78-1baa2b221fc8)
+
+ 
