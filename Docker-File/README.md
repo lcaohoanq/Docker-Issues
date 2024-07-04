@@ -1,0 +1,8 @@
+- FROM (base image)
+- ENV (bien moi truong)
+- RUN (chay shell command)
+- EXPOSE (Mo PORT tu container den virtual network)
+- CMD (chay shell command sau khi container duoc tao ra)
+- WORKDIR (chuyen vao thu muc hien tai)
+- COPY (Copy file tu may tinh vao thu muc trong image)
+- docker image build (tao image tu Dockerfile)
