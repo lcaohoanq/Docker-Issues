@@ -1,0 +1,16 @@
+services:
+  oracle-db:
+    image: gvenzl/oracle-xe:latest
+    container_name: oracle-db
+    environment:
+      ORACLE_PASSWORD: password   # Replace with your desired password
+      ORACLE_PDB: XEPDB1          # Default pluggable database
+      ORACLE_CHARACTERSET: AL32UTF8  # Set character encoding
+    ports:
+      - "1521:1521"  # Oracle DB Port
+      - "5500:5500"  # Oracle EM Express web console
+    volumes:
+      - oracle_data:/opt/oracle/oradata  # Persist Oracle data
+  
+volumes:
+  oracle_data:

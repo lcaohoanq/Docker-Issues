@@ -1,0 +1,1 @@
+- pgAdmin runs on port 5433 via localhost:5433

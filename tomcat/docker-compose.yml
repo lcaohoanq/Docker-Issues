@@ -1,0 +1,19 @@
+version: '2.28.1'
+
+services:
+  tomcat:
+    image: lcaohoanq/tomcat:8.5
+    container_name: tomcat8.5
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./webapps:/usr/local/tomcat/webapps
+    environment:
+      - JAVA_OPTS=-Xms512m -Xmx1024m
+    networks:
+      - tomcat_network
+
+networks:
+  tomcat_network:
+    driver: bridge
+
