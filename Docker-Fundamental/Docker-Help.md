@@ -106,3 +106,10 @@ Commands:
 ```bash
 docker <management_command> <action_command> [Options]
 ```
+
+# docker command
+
+```bash
+# Stop All Running Container
+docker stop $(docker ps -a -q)
+```
